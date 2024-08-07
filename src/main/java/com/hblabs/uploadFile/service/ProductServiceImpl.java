@@ -53,8 +53,9 @@ public class ProductServiceImpl implements ProductService {
             }
         });
     }
+    
     @Override
-    public List<Product> getAllFiles(){
+    public List<Product> getAllFiles() {
         return fileRepository.findAll();
     }
 }
